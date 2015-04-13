@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='dnsbl',
-    version=__import__('pages').__version__,
+    version=__import__('dnsbl').__version__,
     author='Water.org',
     author_email='dev@water.org',
     packages=find_packages(),
