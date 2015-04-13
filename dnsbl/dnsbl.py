@@ -6,7 +6,7 @@ import smtplib
 from email.mime.text import MIMEText
 
 from dnsbl.settings import BLACKHOLE_PROVIDERS
-from dnsbl.settings_private import EMAIL_FROM, EMAIL_TO
+from settings_private import EMAIL_FROM, EMAIL_TO
 
 
 class DNSBLCheck(object):

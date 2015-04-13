@@ -15,7 +15,7 @@ Update settings_private.py per the following default config below.
 SETTINGS
 --------
 
-Create **settings_private.py** next to settings.py file::
+Create **settings_private.py** file in your python path::
 
     EMAIL_FROM = 'from@example.com'
     EMAIL_TO = 'to@example.com'
